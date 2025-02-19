@@ -2,3 +2,4 @@
   base = "docs"
   command = "npm run build-storybook"
   publish = "docs"
+  environment = { NODE_VERSION = "14.17.0" }
