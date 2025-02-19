@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build-storybook -o ./docs"
-  publish = "docs"
-  environment = { NODE_VERSION = "14.17.0" }
