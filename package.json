@@ -23,7 +23,7 @@
     "@storybook/addon-interactions": "^8.5.8",
     "@storybook/addon-onboarding": "^8.5.8",
     "@storybook/blocks": "^8.5.8",
-    "@storybook/react": "^6.3.0",
+    "@storybook/react": "^6.5.16",
     "@storybook/react-vite": "^8.5.8",
     "@storybook/test": "^8.5.8",
     "@types/react": "^19.0.8",
