@@ -58,3 +58,12 @@ export const New: Story = {
     label: "Button"
   }
 };
+
+export const abdulDesign = {
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/hxfh59XGYFrIPb1pljV9qO/Abdul---Portfolio?m=auto&t=5zoC1nKrtWFB10NN-6",
+    },
+  },
+};
