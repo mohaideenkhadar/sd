@@ -54,7 +54,7 @@ export const Small: Story = {
   },
 };
 
-export const New1: Story = {
+export const newStory = {
   args: {
     primary: false,
     label: "Button"
