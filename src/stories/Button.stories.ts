@@ -62,7 +62,7 @@ export const newStory = {
   },
 };
 
-export const Design: Story = {
+export const myStory = {
   parameters: {
     design: {
       type: "figma",
