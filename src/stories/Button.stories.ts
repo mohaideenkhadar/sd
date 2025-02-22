@@ -56,9 +56,10 @@ export const Small: Story = {
 
 export const newStory = {
   args: {
+    name: "Abdul",
     primary: false,
-    label: "Button"
-  }
+    label: "Button",
+  },
 };
 
 export const Design: Story = {
