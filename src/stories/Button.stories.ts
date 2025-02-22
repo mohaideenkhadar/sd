@@ -8,7 +8,7 @@ import { withDesign } from 'storybook-addon-designs';
 const meta = {
   title: 'Example/Button',
   component: Button,
-  decorators: [withDesign]
+  decorators: [withDesign],
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
@@ -54,14 +54,14 @@ export const Small: Story = {
   },
 };
 
-export const New: Story = {
+export const New1: Story = {
   args: {
     primary: false,
     label: "Button"
   }
 };
 
-export const abdulDesign = {
+export const Design: Story = {
   parameters: {
     design: {
       type: "figma",
