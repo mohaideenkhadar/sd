@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -o ./docs"
+    "build-storybook": "build-storybook -o ./docs"
   },
   "dependencies": {
     "react": "^18.3.1",
