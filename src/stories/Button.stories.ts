@@ -2,13 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
 import { Button } from './Button';
-import { withDesign } from 'storybook-addon-designs';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
   title: 'Example/Button',
   component: Button,
-  decorators: [withDesign],
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
@@ -54,9 +52,8 @@ export const Small: Story = {
   },
 };
 
-export const newStory = {
+export const New: Story = {
   args: {
-    name: "Abdul",
     primary: false,
     label: "Button",
   },
@@ -66,7 +63,7 @@ export const abdulDesign = {  //I have add the figma design url in Button.storie
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/hxfh59XGYFrIPb1pljV9qO/Abdul---Portfolio?m=auto&t=5zoC1nKrtWFB10NN-6",
+      url: "https://www.figma.com/design/hxfh59XGYFrIPb1pljV9qO/Abdul---Portfolio?node-id=0-1&t=hd0SPxMzIsXxvtft-1",
     },
   },
 };
