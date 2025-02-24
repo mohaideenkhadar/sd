@@ -7,7 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-designs"
+    "@storybook/addon-designs",  //I have add the design addon in main.ts file
   ],
   framework: {
     name: "@storybook/react-vite",

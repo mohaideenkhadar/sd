@@ -55,11 +55,11 @@ export const Small: Story = {
 export const New: Story = {
   args: {
     primary: false,
-    label: "Button"
-  }
+    label: "Button",
+  },
 };
 
-export const abdulDesign = {
+export const abdulDesign = {  //I have add the figma design url in Button.stories.ts
   parameters: {
     design: {
       type: "figma",
